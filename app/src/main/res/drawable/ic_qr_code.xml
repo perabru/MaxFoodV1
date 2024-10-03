@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Primeiro quadrado grande -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M3,3h6v6H3z" />
+
+    <!-- Segundo quadrado grande -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M15,3h6v6h-6z" />
+
+    <!-- Terceiro quadrado grande -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M3,15h6v6H3z" />
+
+    <!-- Padrões internos do QR Code (parte central) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M10,10h1v1h-1zM12,10h1v1h-1zM14,10h1v1h-1zM16,10h1v1h-1z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M10,12h1v1h-1zM12,12h1v1h-1zM14,12h1v1h-1zM16,12h1v1h-1z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M10,14h1v1h-1zM12,14h1v1h-1zM14,14h1v1h-1zM16,14h1v1h-1z" />
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M10,16h1v1h-1zM12,16h1v1h-1zM14,16h1v1h-1zM16,16h1v1h-1z" />
+
+</vector>
