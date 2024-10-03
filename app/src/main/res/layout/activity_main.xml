@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saldo: R$0.00"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/et_add_credits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adicionar créditos"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btn_add_credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Créditos"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_scan_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ler QR Code"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
